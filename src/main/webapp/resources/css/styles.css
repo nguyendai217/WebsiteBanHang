@@ -1,0 +1,155 @@
+@charset "ISO-8859-1";
+/* css trang chu */
+
+
+
+
+/* css trang chu */
+#header {
+	height: 430px;;
+	width:100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.none-nav{
+	background: none !important;
+	border: none !important;
+}
+.navbar-brand{
+	color:white !important;
+}
+.navbar-center{
+	margin-left: 25% !important;
+}
+.navbar-nav a{
+	color: #ffffff!important;
+}
+.navbar-nav a:hover{
+	color: #80ff00!important;
+}
+.open> a {
+	background: none !important ;
+}
+.dropdown-menu{
+	background-color: black !important;
+}
+.event_header{
+	text-align: center;
+	margin-top: 100px;
+	
+}
+.event_header > span{
+	color:#ff0000;
+	font-size: 20px;
+	padding: 10px;
+}
+.container-fluid{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+ul li a{
+	text-decoration: none;
+}
+
+#info{
+	margin-top:30px;
+	text-align: center;
+}
+#info >span{
+	margin-top: 18px;
+}
+
+#title-sp{
+	text-align: center;
+	margin-top: 50px;
+	font-size: 32px;
+	font-weight: bold;
+	
+}
+.sanpham{
+	margin-top:30px;
+	border: 1px solid #4a0000;
+	border-radius: 5px;
+	padding-bottom: 16px;
+	
+}
+.sanpham img{
+	height:250px;
+}
+.font-image{
+	font-size: 17px;
+}
+.font-prise{
+	font-size: 15px;
+	color: red;
+}
+
+#footer{
+	margin-bottom:20px;
+	margin-top:20px;
+	padding-bottom:20px;
+	background: black;
+	text-align: left;
+}
+.thongtin {
+	text-align:center;
+	margin-top:50px;
+	color: white;
+}
+.table{
+	border:2px solid !important;
+}
+.table tr td{
+	text-align:center !important;
+	border:2px solid !important;
+}
+
+.gopy{
+	text-align: left;
+	margin-top:20px;
+	color: black;
+}
+#btn-send{
+	width: 150px;
+}
+.click-li:hover{
+	color: black !important ;
+}
+
+
+
+@media (max-width: 575.98px) { 
+		.navbar-center{
+	margin-left: 0 !important;
+}
+ }
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	.navbar-center{
+	margin-left: 0 !important;
+}
+	
+
+ }
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { 	
+	.navbar-center{
+	margin-left: 8% !important;
+}
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+
+
+
+
+
+
+
+
